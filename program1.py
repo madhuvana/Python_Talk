@@ -12,8 +12,8 @@ while guess != the_number:
     guess_text = input(' Guess Text between 0 & 100: ')
     guess = int(guess_text)
     if guess < the_number:
-        print(' Hello {} Number you entered  {} low' .format(name, guess))
+        print(' Hello {} Number you entered  {} low'.format(name, guess))
     elif guess > the_number:
-        print(' Hello {} Number you entered  {} high' .format(name, guess))
+        print(' Hello {} Number you entered  {} high'.format(name, guess))
     else:
-        print(' Hello {}  you win.  Number you entered  {} = Random number {} ' .format(name, guess,the_number))
+        print(' Hello {}  you win.  Number you entered  {} = Random number {} '.format(name, guess, the_number))
